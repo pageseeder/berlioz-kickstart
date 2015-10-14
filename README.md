@@ -8,7 +8,7 @@ to start your Berlioz project.
 
 The Web fragment maps the extensions below to some Berlioz XSLT
 
-   *.html -> /xslt/html/[group].xsl
-   *.xml  -> /xslt/xml/[group].xsl   (fallback XSLT if undefined)
-   *.json -> /xslt/json/[group].xsl  (fallback XSLT if undefined)
-   *.src  -> Raw Berlioz XML
+    *.html -> /xslt/html/[group].xsl
+    *.xml  -> /xslt/xml/[group].xsl   (fallback XSLT if undefined)
+    *.json -> /xslt/json/[group].xsl  (fallback XSLT if undefined)
+    *.src  -> Raw Berlioz XML
