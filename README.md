@@ -12,3 +12,7 @@ The Web fragment maps the extensions below to some Berlioz XSLT
     *.xml  -> /xslt/xml/[group].xsl   (fallback XSLT if undefined)
     *.json -> /xslt/json/[group].xsl  (fallback XSLT if undefined)
     *.src  -> Raw Berlioz XML
+
+## Usage
+
+Simply include the berlioz kickstart jar in your classpath and your webapp will be Berlioz-enabled with the extensions defined above.
