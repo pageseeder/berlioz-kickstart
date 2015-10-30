@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.pageseeder.berlioz</groupId>
   <artifactId>pso-berlioz-kickstart</artifactId>
-  <version>0.2.0</version>
+  <version>0.2.1-SNAPSHOT</version>
   <name>Berlioz kickstart</name>
   <description>Simple jar for Servlet 3.0 to make it easier to configure a Berlioz site</description>
 
