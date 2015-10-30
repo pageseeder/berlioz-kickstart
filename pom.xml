@@ -2,7 +2,77 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.pageseeder.berlioz</groupId>
   <artifactId>pso-berlioz-kickstart</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.2.0</version>
   <name>Berlioz kickstart</name>
-  <description>Simple jar for Servlet 3.0 to make it easier to configure a Berlioz site — Simple jar for Servlet 3.0 to make it easier to configure a Berlioz site</description>
+  <description>Simple jar for Servlet 3.0 to make it easier to configure a Berlioz site</description>
+
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>Christophe Lauret</name>
+      <email>clauret@weborganic.com</email>
+      <organization>Allette Systems</organization>
+      <organizationUrl>http://www.allette.com.au</organizationUrl>
+    </developer>
+  </developers>
+
+  <organization>
+    <name>Allette Systems</name>
+    <url>http://www.allette.com.au</url>
+  </organization>
+
+  <properties>
+    <java.version>1.7</java.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <bintray.repo>maven</bintray.repo>
+    <bintray.package>berlioz-kickstart</bintray.package>
+  </properties>
+
+  <scm>
+    <connection>scm:git:git@github.com:pageseeder/berlioz-kickstart.git</connection>
+    <developerConnection>scm:git:git@github.com:pageseeder/berlioz-kickstart.git</developerConnection>
+    <url>git@github.com:pageseeder/berlioz-kickstart.git</url>
+    <tag>HEAD</tag>
+  </scm>
+
+  <distributionManagement>
+    <repository>
+      <id>bintray</id>
+      <url>https://api.bintray.com/maven/pageseeder/${bintray.repo}/${bintray.package}/;publish=1</url>
+    </repository>
+  </distributionManagement>
+
+  <profiles>
+    <profile>
+      <id>bintray</id>
+      <build>
+        <plugins>
+          <plugin>
+            <artifactId>maven-source-plugin</artifactId>
+            <version>2.4</version>
+            <executions>
+              <execution>
+                <id>attach-sources</id>
+                <goals>
+                  <goal>jar</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+
+
+
+
+
 </project>
