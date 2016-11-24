@@ -9,7 +9,7 @@ to start your Berlioz project.
 
 This project has moved to [the Berlioz project](https://github.com/pageseeder/berlioz).
 
-It is no longer maintained and *WILL BE REMOVED*.
+It is no longer maintained and **WILL BE REMOVED IN 2017**.
 
 ## Berlioz mapping
 
